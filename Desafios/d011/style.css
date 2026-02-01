@@ -12,6 +12,14 @@ body{
     margin: 0px;
     padding: 0px;
 }
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 article{
     height: 30vh;
@@ -37,34 +45,85 @@ p#p1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p#p2{
+    font-size: 55px;
+    font-weight: normal;
+    margin-left: 15px;
 }
 p > strong{
     font-weight: bold;
 }
 
+
 section.mains{
     height: 120vh;
     background-color: white;
     padding: 10px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-weight: normal;
-    font-size: 4em;
+    font-size: 55px;
     font-family: 'Sriracha', 'cursive';
 }
 section#conteudo2{
     height: 120vh;
     background-image: url(imagens/background001.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: lightgray;
     padding: 10px;
 }
 p#p3{
     background-color: black;
     color: white;
-    width: 50%;
-    height: 105vh;
-    position: absolute;
-    left: 2%;
-    padding: 0px 0px 0px 20px;
+    width: 45%;
+    font-size: 55px;
+    padding: 10px;
+    margin-left: 15px;
     
+}
+section#conteudo3{
+    height: 200vh;
+   
+}
+.p4 {
+    font-size: 55px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+section#conteudo4 {
+    height: 120vh;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: lightgray;
+}
+p#p6{
+    background-color: rgba(0, 0, 0, 0.54);
+    color: white;
+    width: 45%;
+    font-size: 55px;
+    padding: 10px;
+    margin-left: 15px;
+}
+section#conteudo5{
+    height: 240vh;
+}
+p.p7{
+    font-size: 55px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+footer{
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    font-size: 15px;
 }
